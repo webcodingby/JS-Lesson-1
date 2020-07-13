@@ -26,7 +26,7 @@ console.log(`Переменная userSkills имеет тип - ${userSkillsTyp
 
 // Task 3
 
-// let firstNumeric = 2;
-// let secondNumeric = 4;
+let userFirstNumber = 2;
+let userSecondNumber = 4;
 
-// console.log(firstNumeric.toString() + secondNumeric.toString());
+console.log(userFirstNumber.toString() + userSecondNumber.toString());
