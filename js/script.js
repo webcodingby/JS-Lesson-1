@@ -1,31 +1,32 @@
 // Task #1
 
-let firstNumber = +prompt('Введите число ');
-let subtractNumber = +prompt('Сколько отнять от вашего числа?');
-let addNumber = +prompt('Сколько прибавить к результату?');
-let multiplyNumber = +prompt('На сколько умножить результат?');
-let divideNumber = +prompt('На сколько разделить результат?');
-let totalNumber = (firstNumber - subtractNumber + addNumber) * multiplyNumber / divideNumber;
+let userNumber = +prompt('Введите число ');
+let valueToSubstract = +prompt('Сколько отнять от вашего числа?');
+let valueToAdd = +prompt('Сколько прибавить к результату?');
+let valueToMultiply = +prompt('На сколько умножить результат?');
+let valueToDivide = +prompt('На сколько разделить результат?');
+let totalValue = (userNumber - valueToSubstract + valueToAdd) * valueToMultiply / valueToDivide;
 
-alert('(' + firstNumber + '-' + subtractNumber + '+' + addNumber + ')' + '*' + multiplyNumber + '/' + divideNumber + '=' + totalNumber);
+alert(`(${userNumber} - ${valueToSubstract} + ${valueToAdd}) * ${valueToMultiply} / ${valueToDivide} = ${totalValue}`);
 
 // Task #2
 
 let userName = "Vlasimir"; 
 let userAge = 31; 
 let userSkills = ['HTML',' Css', 'Js']; 
-let userNameType = typeof userName; // string
-let userAgeType = typeof userAge; // number
-let userSkillsType = typeof userSkills // object
+let userNameTypeof = typeof userName; // string
+let userAgeTypeof = typeof userAge; // number
+let userSkillsTypeof = typeof userSkills // object
 
-console.log('Переменная userName имеет тип -' + ' ' + userNameType);
-console.log('Переменная userAge имеет тип -' + ' ' + userAgeType);
-console.log('Переменная userSkills имеет тип -' + ' ' + userSkillsType);
+console.log(`Переменная userName имеет тип - ${userNameTypeof}`);
+console.log(`Переменная userAge имеет тип - ${userAgeTypeof}`);
+console.log(`Переменная userSkills имеет тип - ${userSkillsTypeof}`);
+
 
 
 // Task 3
 
-let firstNumeric = 2;
-let secondNumeric = 4;
+// let firstNumeric = 2;
+// let secondNumeric = 4;
 
-console.log(firstNumeric.toString() + secondNumeric.toString());
+// console.log(firstNumeric.toString() + secondNumeric.toString());
